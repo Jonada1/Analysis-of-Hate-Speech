@@ -4,7 +4,7 @@ import csv
 from nltk.corpus import wordnet as wn
 import re
 from ProgramIntensity import *
-import Treebank
+
 def get_subreddit_comments_sentence_array(subredditName):
     reddit = praw.Reddit(user_agent='Comment Extraction (by /u/USERNAME)',
                         client_id='hH4pioFdIqPqTg', client_secret="U4Xu1kraO2HdF8Xr5xLhNPHA8cA")
@@ -15,9 +15,9 @@ def get_subreddit_comments_sentence_array(subredditName):
         comments = submission.comments
         for comment in comments:
             if(hasattr(comment,"body")): # If has body read
-                splitter = Treebank.Splitter()
-                sentence = splitter.split(comment.body)
-                sentence = Treebank.POSTagger().pos_tag(sentence)
+                # splitter = Treebank.Splitter()
+                sentence = comment.body
+                # sentence = Treebank.POSTagger().pos_tag(sentence)
                 sentences.append(sentence)
                 
     return sentences
@@ -27,7 +27,7 @@ def get_subreddit_comments_word_array(subredditName):
     subreddit = reddit.subreddit(subredditName)
     commentArray = []
     words = []
-    for submission in subreddit.hot(limit=10): #read submissions
+    for submission in subreddit.hot(limit=50): #read submissions
         comments = submission.comments
         for comment in comments:
             if(hasattr(comment,"body")): # If has body read
@@ -38,13 +38,15 @@ def get_subreddit_comments_word_array(subredditName):
                         words.append(word)
     return words
 
+# Find hate words among comments based on the category of intensity & return comment
 def find_hate_word(text):
-    hWords = list(map(lambda x: x.word, all_words_with_intensity))
+    hWords = list(map(lambda hWord: hWord, high_intensity_words))
     results = []
     for word in text:
         if (word in hWords):
-            results.append(word)
+            results.append(text)
     return results
+
 def findTotalIntensity(words):
     total_intensity = 0
     for word in words:
@@ -56,7 +58,9 @@ def findTotalIntensity(words):
 # ************** askmen ******************* 
 askmenwords = get_subreddit_comments_word_array("askmen")
 menHateWords = find_hate_word(askmenwords)
+print(menHateWords)
 menTotalIntensity = findTotalIntensity(menHateWords)
+
 
 # ************** askwomen *******************
 askwomenwords = get_subreddit_comments_word_array("askwomen")
@@ -79,3 +83,4 @@ ITdeptTotalIntensity = findTotalIntensity(ITdeptHateWords)
 elder = get_subreddit_comments_word_array("1920s")
 elderHateWords = find_hate_word(elder)
 elderTotalIntensity = findTotalIntensity(elderHateWords)
+

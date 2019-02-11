@@ -189,6 +189,6 @@ def value_of(sentiment):
     if sentiment == 'None': return 0
     return 0
 
-def sentiment_score(review):
-    return sum ([value_of(tag) for sentence in dict_tagged_sentences for token in sentence for tag in token[2]])
+# def sentiment_score(review):
+#     return sum ([value_of(tag) for sentence in dict_tagged_sentences for token in sentence for tag in token[2]])
 # print(sentiment_score(dict_tagged_sentences))

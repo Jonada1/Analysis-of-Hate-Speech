@@ -9,8 +9,8 @@ class Word:
 
 all_words_with_intensity = []
 
-high_intensity_words = ['rotten', 'wicked', 'violence']
-medium_intensity_words = ['censure', 'intimidate', 'prejudice']
+high_intensity_words = ['rotten', 'wicked', 'violence', "cunt", "gun"]
+medium_intensity_words = ['censure', 'intimidate', 'prejudice', "bitch"]
 moderate_intensity_words = ['tense', 'dislike', 'disrespect']
 
 ## words in category 1 (high intensity hate speech words) will be assigned weight 5
@@ -103,7 +103,7 @@ for word in moderate_intensity_words:
                             all_words_with_intensity.append(f)
             i += 1
 
-for word in all_words_with_intensity:
-  print (word.word, word.intensity)
+# for word in all_words_with_intensity:
+#   print (word.word, word.intensity)
 
 
