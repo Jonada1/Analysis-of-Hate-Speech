@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "nltk\\Scripts\\python.exe",
+    "python.pythonPath": "C:\\Users\\Nejdi\\AppData\\Local\\Programs\\Python\\Python36-32\\python.exe",
     "python.linting.banditEnabled": false,
     "python.linting.flake8Enabled": true,
     "python.linting.enabled": true

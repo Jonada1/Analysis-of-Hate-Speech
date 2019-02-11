@@ -1,6 +1,6 @@
 import praw
 import nltk
-from ProgramIntensity import high_intensity_words
+from ProgramIntensity import high_intensity_words, get_all_words_with_intensity
 from ProgramIntensity import medium_intensity_words, moderate_intensity_words
 
 reddit = praw.Reddit(
@@ -25,8 +25,7 @@ def does_comment_have_hate_words(comment, hate_words):
         for word in words:
             if (word in hate_words):
                 return True
-    else:
-        return False
+    return False
 
 
 def get_hate_comments(comment_array, intensity):
@@ -48,11 +47,29 @@ def get_hate_words_by_intensity(intensity):
 
 
 def get_user_comments(username):
-    print(username)
-    user = reddit.redditor("ketralnis")
-    return 
-    print(user)
-    print("Fails 1")
+    user = reddit.redditor(str(username))
     comments = user.comments.new()
-    print("Fails 2")
     return comments
+
+
+def find_hate_words(text):
+    hWords = list(map(lambda x: x.word, get_all_words_with_intensity()))
+    results = []
+    for word in text:
+        if (word in hWords):
+            results.append(word)
+    return results
+
+def find_total_intensity_of_words(words):
+    total_intensity = 0
+    for word in words:
+        intensity = list(filter(lambda x: x.word == word, get_all_words_with_intensity()))[0].intensity
+        total_intensity += intensity
+    return total_intensity
+
+def find_total_intensity_of_comments(hate_comments):
+    total_intensity = 0
+    for comment in hate_comments:
+        comment_hate_words = find_hate_words(nltk.word_tokenize(comment.body))
+        total_intensity += find_total_intensity_of_words(comment_hate_words)
+    return total_intensity
