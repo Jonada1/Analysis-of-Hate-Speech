@@ -201,7 +201,7 @@ class Notepad(QWidget):
         #   print(word.word, word.intensity)
 
         # 2.1
-        filename = "hateSpeech.txt"
+        filename = "BouncyKnickers.txt"
         infile = open(filename, 'r')
         lines = infile.readlines()
         hatearray = []

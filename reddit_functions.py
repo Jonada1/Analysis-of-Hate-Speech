@@ -2,6 +2,7 @@ import praw
 import nltk
 from ProgramIntensity import high_intensity_words, get_all_words_with_intensity
 from ProgramIntensity import medium_intensity_words, moderate_intensity_words
+import collections
 
 reddit = praw.Reddit(
     user_agent='Comment Extraction (by /u/USERNAME)',
@@ -30,7 +31,7 @@ def does_comment_have_hate_words(comment, hate_words):
 
 def get_hate_comments(comment_array, intensity):
     hate_comments = []
-    hate_words = get_hate_words_by_intensity(intensity)
+    hate_words = list(map(lambda x: x.word, get_all_words_with_intensity()))
     for comment in comment_array:
         if(does_comment_have_hate_words(comment, hate_words)):
             hate_comments.append(comment)
@@ -48,14 +49,15 @@ def get_hate_words_by_intensity(intensity):
 
 def get_user_comments(username):
     user = reddit.redditor(str(username))
-    comments = user.comments.new()
+    comments = user.comments.new(limit=10)
     return comments
 
 
 def find_hate_words(text):
     hWords = list(map(lambda x: x.word, get_all_words_with_intensity()))
     results = []
-    for word in text:
+    words = nltk.word_tokenize(text)
+    for word in words:
         if (word in hWords):
             results.append(word)
     return results
@@ -70,6 +72,16 @@ def find_total_intensity_of_words(words):
 def find_total_intensity_of_comments(hate_comments):
     total_intensity = 0
     for comment in hate_comments:
-        comment_hate_words = find_hate_words(nltk.word_tokenize(comment.body))
+        comment_hate_words = find_hate_words(comment.body)
         total_intensity += find_total_intensity_of_words(comment_hate_words)
     return total_intensity
+
+
+def find_users_top_hate_word(comments):
+    all_hate_words = []
+    for comment in comments:
+        hate_words = find_hate_words(comment.body)
+        for word in hate_words:
+            all_hate_words.append(word)
+    most_common = collections.Counter(all_hate_words).most_common(1)
+    return most_common

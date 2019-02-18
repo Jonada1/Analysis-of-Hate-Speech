@@ -131,7 +131,7 @@ class DictionaryTagger(object):
 
                 if literal in self.dictionary:
                     print(literal)
-                    filename = "hateSpeech.txt"
+                    filename = "BouncyKnickers.txt"
                     infile = open(filename, 'r')
                     lines = infile.readlines()
                     for line in lines:
@@ -173,11 +173,11 @@ class DictionaryTagger(object):
                 i += 1
         return tag_sentence
 
-# dicttagger = DictionaryTagger([ 'positive.yml', 'negative.yml'])
+dicttagger = DictionaryTagger([ 'positive.yml', 'negative.yml'])
 
-# dict_tagged_sentences = dicttagger.tag(pos_tagged_sentences)
+dict_tagged_sentences = dicttagger.tag(pos_tagged_sentences)
 
-# print(dict_tagged_sentences)
+print(dict_tagged_sentences)
 
 def value_of(sentiment):
     if sentiment == 'negLow': return -1
@@ -189,6 +189,6 @@ def value_of(sentiment):
     if sentiment == 'None': return 0
     return 0
 
-# def sentiment_score(review):
-#     return sum ([value_of(tag) for sentence in dict_tagged_sentences for token in sentence for tag in token[2]])
-# print(sentiment_score(dict_tagged_sentences))
+def sentiment_score(review):
+    print(sentiment_score(dict_tagged_sentences))
+    return sum ([value_of(tag) for sentence in dict_tagged_sentences for token in sentence for tag in token[2]])

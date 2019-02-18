@@ -104,8 +104,11 @@ def get_all_words_with_intensity():
                                 f = Word(synset_lemma.name(), 2.5)
                                 all_words_with_intensity.append(f)
                 i += 1
-    return all_words_with_intensity
-# for word in all_words_with_intensity:
-#   print (word.word, word.intensity)
+    # for word in all_words_with_intensity:
+    #     print (word.word, word.intensity)
 
+    return all_words_with_intensity
+
+    
+# get_all_words_with_intensity()
 
