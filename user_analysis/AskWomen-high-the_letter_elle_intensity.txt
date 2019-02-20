@@ -1,0 +1,4 @@
+b'I lived in rural Nepal for a month. You get really good at using gestures and figuring out universal signs for everything, I generally didn\xe2\x80\x99t struggle with getting my point across. The hardest part was getting travelers stomach in an area with high HIV/AIDS rates and trying to explain why I am refusing any IV fluids or anti-nausea injections (at that point I was getting sick into a trash can filled with used needles so I think I was justifiably wary). Google translate was my best friend at that point because it made everything so much faster communication-wise. Also having a list of single words in the native language such as \xe2\x80\x9cbathroom\xe2\x80\x9d or \xe2\x80\x9cEnglish\xe2\x80\x9d was invaluable. '
+User intensity: 7.7
+Top hate word: part
+Sentiment analysis:  compound: 0.6764, neg: 0.069, neu: 0.825, pos: 0.106, 

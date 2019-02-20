@@ -1,0 +1,4 @@
+b"Death of my dog. Pet deaths in general, especially if you're really bonded. \n\nI really dislike how some people kind of roll their eyes or don't consider that pets can be family members. I had some people ask if or when I was going to get a new one or another one shortly after mine had passed, that was the last thing I wanted to talk about or consider at the moment. "
+User intensity: 12.4
+Top hate word: Death
+Sentiment analysis:  compound: -0.7939, neg: 0.098, neu: 0.902, pos: 0.0, 

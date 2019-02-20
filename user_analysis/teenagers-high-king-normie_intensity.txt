@@ -1,0 +1,8 @@
+b'Soon, we have to pick up their damn trash, but not if we commit sauce on the side first! '
+b'His persona stats were mediocre for a last party member and the fact that he had insta kill spells and how he seemed pretty replaceable by a persona you can easily fuse.\n\nThen how he stands in the save rooms and meetings while everyone else pretty much sits.'
+b'A golden hoe in the middle called the holy hoe with some sunflowers around it and other trash we had.'
+b'More like, belongs in the trash'
+b'Oki, aliens if u there, kill us now'
+User intensity: 29.7
+Top hate word: trash
+Sentiment analysis:  compound: -0.6908, neg: 0.439, neu: 0.561, pos: 0.0, 

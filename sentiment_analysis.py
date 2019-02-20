@@ -12,7 +12,9 @@ def sentiment_analyser(comments):
 
 
 def sentiment_polarity_printer(polarity_dictionaries):
+	total_sentiment = ""
 	for polarity_dictionary in polarity_dictionaries:
 		for polarity_score_key in sorted(polarity_dictionary):
-			print('{0}: {1}, '.format(polarity_score_key,
-                             polarity_dictionary[polarity_score_key]), end='')
+			sentiment = '{0}: {1}, '.format(polarity_score_key, polarity_dictionary[polarity_score_key])
+			total_sentiment += sentiment
+	return total_sentiment

@@ -11,7 +11,7 @@ high_intensity_words = ['trash', 'nazi', 'kill',]
 medium_intensity_words = ['nerd', 'detest', 'prejudice']
 moderate_intensity_words = ['tense', 'dislike', 'disrespect']
 
-def find_hyponyms(words):
+def S_vocabulary(words):
     direct_synonyms = []
     direct_hyponyms = []
     second_hyponyms = []
@@ -48,7 +48,6 @@ def find_hyponyms(words):
                                 synonyms_of_second_hyponyms.append(synonym_of_second_hyponyms)
                 i += 1
 
-            ## First hyponyms
         # print('Word ', word, 'has ', len(direct_synonyms), ' direct synonyms')
         # print('Word ', word, 'has ', len(direct_hyponyms), ' direct hyponyms')
         # print('Word ', word, 'has ', len(second_hyponyms), ' second hyponyms')
@@ -58,4 +57,4 @@ def find_hyponyms(words):
 
 
 
-# find_hyponyms(moderate_intensity_words)
+# S_vocabulary(moderate_intensity_words)

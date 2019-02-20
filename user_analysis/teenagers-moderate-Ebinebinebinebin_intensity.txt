@@ -1,0 +1,5 @@
+b"Well i mean just the fact that instagram only gives you the option to like and not dislike really shows what kind of platform it is. It's just not meant for memes, it's meant for famous people taking selfies and... That's kinda it."
+b"Lookin good, but i dislike using the word 'survivor' for something small like this. That title should only go to people who have survived a deadly incident."
+User intensity: 8.7
+Top hate word: dislike
+Sentiment analysis:  compound: 0.7391, neg: 0.1, neu: 0.617, pos: 0.283, 

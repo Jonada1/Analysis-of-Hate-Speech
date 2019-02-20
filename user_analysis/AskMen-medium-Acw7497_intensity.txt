@@ -1,0 +1,4 @@
+b"Growing up I was the youngest by like, a lot. My parents had given up on the whole keeping up with technology thing and never bought a DVD player, even after the VCR broke so I grew up not watching any classic sci fi or fantasy movies despite my nerdy tendencies.\n\nThis lead to a pizza and mountain dew fueled marathon at my sister's house my senior year of highschool where I watched every Star wars, Matrix, Indiana Jones, Lotr, and Jurrasic park movie so that I could fill in the gaps of my nerd knowledge before moving onto college. We also watched Firefly, just cuz.\n\nIt was awesome."
+User intensity: 10.2
+Top hate word: despite
+Sentiment analysis:  compound: -0.0392, neg: 0.076, neu: 0.84, pos: 0.084, 

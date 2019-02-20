@@ -1,0 +1,5 @@
+b"In El Salvador some people tried to kill my grandfather while we are in the car with him. It was him, me, and my dad. We were driving somewhere I don't remember too well, when the front and side windows just exploded. I was only four so I don't remember the exact things, but I remember crying on the floor of the car and my grandpa and dad yelling while we drove off. For context my grandpa is a lawyer who dealt with things involving the military during and after the civil war so there have been a few stories involving or about him."
+b'Huh, in El Salvador we have a semi-active death squad called la Sombra Negra who kill gang members and criminals.'
+User intensity: 14.7
+Top hate word: kill
+Sentiment analysis:  compound: -0.9231, neg: 0.435, neu: 0.565, pos: 0.0, 

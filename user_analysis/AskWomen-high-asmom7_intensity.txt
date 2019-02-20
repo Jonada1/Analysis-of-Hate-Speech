@@ -1,0 +1,4 @@
+b'In the lunch line in high school, I stepped out to throw some paper in a trash can ~4 feet away. The teacher monitoring the line very obviously only saw me stepping back in because she stopped me and told me to move to the back. Even after protests from other students, I still had to go. \n\nI said \xe2\x80\x9cThis is frickin ridiculous\xe2\x80\x9d (those were my EXACT words). I was suspended because she \xe2\x80\x9cknew what I really meant\xe2\x80\x9d by using \xe2\x80\x9cfrickin\xe2\x80\x9d.\n\nSeriously. '
+User intensity: 7.7
+Top hate word: trash
+Sentiment analysis:  compound: -0.765, neg: 0.107, neu: 0.893, pos: 0.0, 

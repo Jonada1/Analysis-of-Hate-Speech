@@ -1,0 +1,4 @@
+b"My mother was saying she wanted to kill herself and that she would kill my siblings before that so they don't suffer. All i could feel back then was deep sadness and heart ache why am i not good enough to be killed too.\nTrying to deal with childhood trauma to this very day and I am 32. Literally affected every aspect in my life but mostly relationships with other people. \n"
+User intensity: 10
+Top hate word: kill
+Sentiment analysis:  compound: -0.901, neg: 0.219, neu: 0.755, pos: 0.026, 

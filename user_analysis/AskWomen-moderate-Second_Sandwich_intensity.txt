@@ -1,0 +1,5 @@
+b"When I was younger my mom hated people that were middle/upper class. She would constantly talk badly about them and then as I got older I just automatically assumed that if you had money you were mean, entitled, and would look down on me for not having it. \n\nI started to realize that this wasn't the case with most people when I started to become friends with kids that lived in a more well off family and realized that, yeah their lives looked a bit different from mine, but they didn't dislike me for it. "
+b'Yesterday my boyfriend messaged his wow discord to ask when he should "kick out" his girlfriend so that he could start keys. He thought it was funny and showed it to me laughing. I did not think it was funny and felt disrespected, but tried to understand that he never intended to disrespect me. He realized how I felt and apologized. '
+User intensity: 11
+Top hate word: down
+Sentiment analysis:  compound: 0.859, neg: 0.056, neu: 0.737, pos: 0.207, 

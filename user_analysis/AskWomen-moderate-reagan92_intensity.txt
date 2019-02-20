@@ -1,0 +1,4 @@
+b"Publically, only inasmuch as I'm gay.  I don't really signal anymore, and though I donate money to lgbta groups, and volunteer when I have time, I don't organize.  I present femme, and I use she/her pronouns.\n\nBut in my personal life... I've heard and seen enough disrespect, invalidation, and dictation of legitimacy and acceptability from non-gay people that I have no problem going full on Bayard Rustin.\n\n"
+User intensity: 3
+Top hate word: disrespect
+Sentiment analysis:  compound: -0.6808, neg: 0.117, neu: 0.851, pos: 0.032, 

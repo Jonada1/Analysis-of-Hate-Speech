@@ -1,0 +1,4 @@
+b'Contacts.\n1. I dislike any cranial accessories;\n2. chopping onions doesn\xe2\x80\x99t bother me.'
+User intensity: 3
+Top hate word: dislike
+Sentiment analysis:  compound: -0.6124, neg: 0.333, neu: 0.667, pos: 0.0, 

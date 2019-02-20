@@ -1,0 +1,4 @@
+b"r/WarAgainstInstagram Let's kill le crihnge instanormies with Big Chnungus and Shaggy, also subsrcribe to pewdiepie. \xf0\x9f\x98\x8e\xf0\x9f\x98\x8e\xf0\x9f\x98\x8e"
+User intensity: 5
+Top hate word: kill
+Sentiment analysis:  compound: -0.6908, neg: 0.239, neu: 0.761, pos: 0.0, 
