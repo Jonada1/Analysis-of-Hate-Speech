@@ -1,6 +1,0 @@
-b'He tried to kill a baby just because he was ugly. Yeah, he was awful.'
-b'Cat food lol. I buy top of the line. His fur is the softest and makes it all worth it. I could eat trash, as long as the cat is well fed.'
-b"Not letting life defeating me. It hasn't been easy, but I have the soul of a lioness. \n\nMy ex after he dumped me in a pretty nasty way, and asked me if I was going to kill myself for that. As heartbroken as I felt, I was like wuuuut? I got hit by a bus boy, if I didn't kill myself after that, sure as hell I'm not killing myself for you.  "
-User intensity: 25
-Top hate word: kill
-Sentiment analysis:  compound: -0.9743, neg: 0.344, neu: 0.493, pos: 0.163, 

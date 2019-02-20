@@ -1,4 +1,0 @@
-b'Higher Love.  They would kill this song.'
-User intensity: 5
-Top hate word: kill
-Sentiment analysis:  compound: -0.128, neg: 0.338, neu: 0.36, pos: 0.302, 

@@ -1,0 +1,4 @@
+b'I understand not wanting to let them get away with being assholes, but running after the dude was fucking dumb. Now I understand that in some places, bartenders or serving staff have to pay for the shit people skip out on, but doing shit like that is a good way to get hurt or killed. People do kill for far less.'
+Intensity for user: 7.7
+Top hate word: hurt
+Sentiment analysis: compound: -0.9861, neg: 0.396, neu: 0.526, pos: 0.078, 

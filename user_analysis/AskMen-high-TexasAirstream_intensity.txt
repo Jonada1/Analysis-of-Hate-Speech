@@ -1,4 +1,0 @@
-b'I think "abuse" needs to be better defined for a legitimate answer... if you know of someone being physically abused then you have a moral (and in most states, legal) imperative to intervene in some way. Perhaps verbal or emotional abuse that doesn\'t rise to the level of "call the police and/or kill this mother fucker" might be satisfied with a pointed conversation with your friend and (if appropriate) the abuser that next time, you are going to the cops. For someone being "controlled" as a few have noted here, that\'s a grey area that should be viewed case-by-case... every situation is different and some people are more or less dangerous than others. I will say, though, that as someone who has lost a friend to partner violence I would encourage you to err on the side of caution and do whatever you can, within reason, to stop that shit.'
-User intensity: 18.3
-Top hate word: abuse
-Sentiment analysis:  compound: -0.9646, neg: 0.199, neu: 0.698, pos: 0.102, 

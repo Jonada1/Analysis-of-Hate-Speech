@@ -1,0 +1,4 @@
+b'I find any comment that is based on some physical attribute annoying.  Saying a 5 year old is a "little lady" or "little man," for instance.  Telling little girls they are pretty or little boys how to be manly.   I dislike comments about age, and especially, if one is telling a 70 year old women how young she looks.   \n\nDoesn\'t matter if the speaker believes they are giving a compliment.  Comments like those you list and in categories I list are simply creepy.'
+Intensity for user: 3
+Top hate word: dislike
+Sentiment analysis: compound: 0.7028, neg: 0.074, neu: 0.795, pos: 0.131, 

@@ -26,21 +26,22 @@ def analyse_user(subreddit_name, hate_intensity):
     f.close
     user_comments_dictionary = get_user_comments_dictionary(hate_comments, hate_intensity)
     for user, comments in user_comments_dictionary.items():
-        user_intensity = find_total_intensity_of_comments(comments)
-    
-    if(len(comments) > 0):
-        polarity_dictionaries = sentiment_analyser(comments)
-        sentiment_polarity_printer(polarity_dictionaries)
-
-        f = open("user_analysis\\{0}-{1}_intensity-{2}.txt".format(subreddit_name, hate_intensity, user), "w+")
-        for comment in comments:
-            f.write("%s\r\n" % (comment.body).encode('utf-8'))
+        if(len(comments) > 0):
+            user_intensity = find_total_intensity_of_comments(comments)
+            f = open("user_analysis\\{0}-{1}_intensity-{2}.txt".format(subreddit_name, hate_intensity, user), "w+")
+            for comment in comments:
+                f.write("%s\r\n" % (comment.body).encode('utf-8'))
             f.write("Intensity for user: %s\r\n" % (user_intensity))
-            f.write("Top hate word: %s\r\n" % (find_users_top_hate_word(comments)[0]))
-            f.write("Sentiment analysis: %s\r\n" % (sentiment_polarity_printer(polarity_dictionaries)))
-        f.close
+            f.write("Top hate word: %s\r\n" % (find_users_top_hate_word(comments)[0][0]))
+            polarity_dictionary = sentiment_analyser(comments)
+            f.write("Sentiment analysis: %s\r\n" % (sentiment_polarity_printer(polarity_dictionary)))
+            f.close
 
         
-analyse_user("TalesFromYourServer", "high")
-analyse_user("TalesFromYourServer", "medium")
-analyse_user("TalesFromYourServer", "moderate")
+# analyse_user("TalesFromYourServer", "high")
+# analyse_user("TalesFromYourServer", "medium")
+# analyse_user("TalesFromYourServer", "moderate")
+
+analyse_user("askoldpeople", "high")
+analyse_user("askoldpeople", "medium")
+analyse_user("askoldpeople", "moderate")

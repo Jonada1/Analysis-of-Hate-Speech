@@ -1,0 +1,6 @@
+b"Well that too. They find a weakness in their opponent, or even a perceived one, and strike to kill so they can collect their new slaves' toils for themselves. "
+b"I'm so happy to hear you just threw it away. That's absolutely bullshit that she just threw it down and walked away. If you just left it there, we assumed it was trash since you didn't tell us it was important. \xc2\xaf\\\\\\_(\xe3\x83\x84)_/\xc2\xaf"
+b"My friend, I feel you on being broke. That was the single biggest help to knocking fast food off my plate too! Haha. Accept the fact that you won't put away portions when you cook. I did that and it helped over eating that way too. I eat later at night after work sometimes because I really don't want to get up and cook dinner every night, but that also helps because I either cook enough or don't eat at all which won't kill me with all this extra weight hanging around. With a little acceptance, we can turn one of our biggest weaknesses (being lazy) into a strength in our weight journey. "
+Intensity for user: 20
+Top hate word: kill
+Sentiment analysis: compound: 0.9584, neg: 0.051, neu: 0.755, pos: 0.194, 

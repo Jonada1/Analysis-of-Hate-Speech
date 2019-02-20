@@ -4,17 +4,16 @@ from nltk import tokenize
 
 def sentiment_analyser(comments):
 	sentiment_intensity_analyzer = SentimentIntensityAnalyzer()
-	polarity_dictionaries = []
+	comment_as_whole = ""
 	for comment in comments:
-		polarity_dictionary = sentiment_intensity_analyzer.polarity_scores(comment.body)
-	polarity_dictionaries.append(polarity_dictionary)
-	return polarity_dictionaries
+		comment_as_whole += " " + comment.body
+	total_sentiment = sentiment_intensity_analyzer.polarity_scores(comment.body)
+	return total_sentiment
 
 
-def sentiment_polarity_printer(polarity_dictionaries):
+def sentiment_polarity_printer(polarity_dictionary):
 	total_sentiment = ""
-	for polarity_dictionary in polarity_dictionaries:
-		for polarity_score_key in sorted(polarity_dictionary):
-			sentiment = '{0}: {1}, '.format(polarity_score_key, polarity_dictionary[polarity_score_key])
-			total_sentiment += sentiment
+	for polarity_score_key in sorted(polarity_dictionary):
+		sentiment = '{0}: {1}, '.format(polarity_score_key, polarity_dictionary[polarity_score_key])
+		total_sentiment += sentiment
 	return total_sentiment

@@ -1,5 +1,0 @@
-b'If you feel you need it I implore you to take action. Waiting can be a dangerous game. I\'ve struggled with depression and anxiety for many years. I kept telling myself "I\'ll go to therapy soon" but I never did amd eventually it got to a point where I cut myself off from everyone, became a shut in, and attempted to kill myself. When I survived I promised myself I would go. My point is, is after a certain point your mind convinces you of things and it will be too late to turn back. '
-b"She threatened to cut herself over a trivial argument. The argument was just about where I could hang my poster. Amd she lost it. And again lost her shit when I was texting a female friend. Super platonic and g rated. Let her go thru my phone but she wasn't satisfied and blocked her and told me if I unblocked her she would assume that meant I fucked her at some point and she'll kill herself. I noped out pretty fast after that. "
-User intensity: 22.6
-Top hate word: go
-Sentiment analysis:  compound: -0.9458, neg: 0.292, neu: 0.597, pos: 0.11, 

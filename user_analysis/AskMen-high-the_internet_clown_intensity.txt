@@ -1,8 +1,0 @@
-b'\xe2\x80\x9cSure, but you will have to hand over your phone too and we can both kill the trust in this relationship together\xe2\x80\x9d this hasn\xe2\x80\x99t come up for me luckily '
-b'The thing is if you don\xe2\x80\x99t try to fight back when he is trying to kill you is that he will kill you. '
-b'They do, I would advise against you hiring a hit man to kill relatives. '
-b'I would stay where I am at. The cold winter would kill the zombies '
-b'So the moral of the story is be friends with the robots and don\xe2\x80\x99t try to kill them'
-User intensity: 30
-Top hate word: kill
-Sentiment analysis:  compound: -0.3818, neg: 0.197, neu: 0.672, pos: 0.13, 

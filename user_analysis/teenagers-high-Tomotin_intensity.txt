@@ -1,4 +1,8 @@
-b'This happened to me once so bad i fainted with my head going straight into my trash can. Luckily it was empty'
-User intensity: 9.5
-Top hate word: head
-Sentiment analysis:  compound: -0.2712, neg: 0.221, neu: 0.597, pos: 0.183, 
+b'This happened to me once so bad i fainted with my head going straight into my trash can. Luckily it was empty'
+
+User intensity: 9.5
+
+Top hate word: trash
+
+Sentiment analysis:  compound: -0.2712, neg: 0.221, neu: 0.597, pos: 0.183, 
+

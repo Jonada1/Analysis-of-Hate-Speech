@@ -1,0 +1,4 @@
+b"Life is an opportunity, a gift, but the road from addiction is difficult beyond description. We all know that. Still, what doesn't kill you makes your stronger. It's time to hit the reset button and climb out. Use your experience to help others. Let loving-kindness be your light. Start with yourself and learn to love.\n\nThere are some solid thoughts in the other comments - you have sympathy and love from total strangers. Take some of that on board and take the first steps toward a happy, useful life."
+Intensity for user: 5
+Top hate word: kill
+Sentiment analysis: compound: 0.9908, neg: 0.027, neu: 0.623, pos: 0.35, 
