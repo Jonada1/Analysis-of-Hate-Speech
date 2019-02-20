@@ -37,11 +37,23 @@ def analyse_user(subreddit_name, hate_intensity):
             f.write("Sentiment analysis: %s\r\n" % (sentiment_polarity_printer(polarity_dictionary)))
             f.close
 
-        
+
+# analyse_user("AskWomen", "high")
+# analyse_user("AskWomen", "medium")
+# analyse_user("AskWomen", "moderate")
+
+# analyse_user("AskMen", "high")
+# analyse_user("AskMen", "medium")
+# analyse_user("AskMen", "moderate")
+
+# analyse_user("teenagers", "high")
+# analyse_user("teenagers", "medium")
+# analyse_user("teenagers", "moderate")
+
 # analyse_user("TalesFromYourServer", "high")
 # analyse_user("TalesFromYourServer", "medium")
 # analyse_user("TalesFromYourServer", "moderate")
 
-analyse_user("askoldpeople", "high")
-analyse_user("askoldpeople", "medium")
-analyse_user("askoldpeople", "moderate")
+# analyse_user("askoldpeople", "high")
+# analyse_user("askoldpeople", "medium")
+# analyse_user("askoldpeople", "moderate")
